@@ -1,11 +1,12 @@
 import React from "react";
+import Resume from '../Jose Chavarria Full Stack EN.pdf'
 
 const Footer = ({ data }) => {
   if (data) {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url} target="_blank" rel='noreferrer'>
+          <a href={network.url ? network.url : Resume} target="_blank" rel='noreferrer'>
             <i className={network.className}></i>
           </a>
         </li>
