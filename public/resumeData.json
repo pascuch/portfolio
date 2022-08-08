@@ -1,86 +1,142 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Pascu",
+    "occupation": "Frontend Developer",
+    "description": "Passionate about React",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "bio": "Hi there! ✋ I'm Jose Chavarria (Pascu), Full Stack Developer with Frontend orientation. Having participated in individual and group projects, I was able to learn working methodologies in development teams. In these projects I used tools such as React, Redux, Node, Express, SQL, HTML, Sass, perfecting myself with Javascript. Passionate about technology and the solutions they provide to everyday life. I worked more than 10 years in accounting and supply areas, in this process I acquired new learning routes and ways to solve the problems that arise.",
+    "contactmessage": "Get in touch with me!",
+    "email": "josechavarria@me.com",
+    "phone": "+39 3791553968",
     "address": {
       "street": "123 Dev Lane",
-      "city": "London",
+      "city": "Worldwide",
       "state": "Devosphere",
       "zip": "W3B D3V"
     },
     "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "resumedownload": "https://pdfhost.io/v/RnmJ~82Nz_Jose_Chavarria_Full_Stack_EN",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/josechavarriafullstack/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/pascuch",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "https://github.com/PapaReact",
-        "className": "fa fa-github"
+        "name": "resume",
+        "url": "",
+        "className": "fa fa-file-text"
       }
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "My technology stack",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
+        "school": "Full Stack Web Developer",
+        "degree": "Henry Bootcamp - Argentina",
+        "graduated": "2022",
+        "description": "Graduated with First Class Honours"
+      },
+      {
+        "school": "Accountant",
+        "degree": "Universidad Argentina de la Empresa - Argentina",
+        "graduated": "2020",
+        "description": "Graduated with First Class Honours"
+      },
+      {
+        "school": "Bachelor in Business Administration",
+        "degree": "Universidad Argentina de la Empresa - Argentina",
+        "graduated": "2018",
         "description": "Graduated with First Class Honours"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Project - Airbnb Clone",
+        "title": "Frontend Developer",
+        "years": "July 2022 - Present",
+        "description": "Personal cloning-app project to implement new frontend technologies to my stack and keep mastering the ones I have."
+      },
+      {
+        "company": "Project - Netflix Clone",
+        "title": "Frontend Developer",
+        "years": "July 2022 - Present",
+        "description": "Personal cloning-app project to implement new frontend technologies to my stack and keep mastering the ones I have."
+      },
+      {
+        "company": "Henry Bootcamp - Rental App",
+        "title": "Frontend Developer",
+        "years": "May 2022",
+        "description": "Development of accommodation booking app. It was carried out in four weeks with a team of 8 developers (divided into frontend and backend) following the SCRUM methodology, presenting progress to the Product Owner every week."
+      },
+      {
+        "company": "Henry Bootcamp - Pokemon App",
+        "title": "Full Stack Developer",
+        "years": "April 2022",
+        "description": "SPA development in which all the knowledge acquired in the FullStack Bootcamp was integrated. For this app, technologies such as React, Redux, pure HTML and CSS were used for the frontend and NodeJS, Express, Sequelize for the backend."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "Javascript",
         "level": "100%"
       },
       {
-        "name": "Python",
+        "name": "React",
         "level": "85%"
       },
       {
-        "name": "Git",
+        "name": "Redux",
         "level": "70%"
       },
       {
-        "name": "JavaScript",
+        "name": "HTML",
         "level": "99%"
       },
       {
-        "name": "Web Development",
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Tailwind",
+        "level": "85%"
+      },
+      {
+        "name": "Sass",
+        "level": "70%"
+      },
+      {
+        "name": "Node.js",
+        "level": "99%"
+      },
+      {
+        "name": "Express",
+        "level": "95%"
+      },
+      {
+        "name": "Postgress",
+        "level": "95%"
+      },
+      {
+        "name": "Sequelize",
+        "level": "85%"
+      },
+      {
+        "name": "Firebase",
+        "level": "70%"
+      },
+      {
+        "name": "SQL",
+        "level": "99%"
+      },
+      {
+        "name": "SCRUM",
         "level": "95%"
       }
     ]
@@ -88,22 +144,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Airbnb Clone",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "airbnb_clone.png",
+        "url": "https://airbnb-clone-neon-two.vercel.app"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Netflix Clone",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
-      },
-      {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "netflix_clone.png",
+        "url": "https://netflix-clone-a58b3.firebaseapp.com"
       }
     ]
   },

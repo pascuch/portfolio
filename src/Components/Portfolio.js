@@ -7,7 +7,7 @@ const Portfolio = ({ data }) => {
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url} title={projects.title} target="_blank" rel='noreferrer'>
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -33,7 +33,7 @@ const Portfolio = ({ data }) => {
 
           <div
             id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
+            className="bgrid-quarters s-bgrid-thirds cf projects"
           >
             {projects}
           </div>

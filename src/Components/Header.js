@@ -1,5 +1,6 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import Resume from '../Jose Chavarria Full Stack EN.pdf'
 
 const Header = ({ data }) => {
   if (data) {
@@ -10,7 +11,7 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url ? network.url : Resume} target="_blank" rel='noreferrer'>
             <i className={network.className}></i>
           </a>
         </li>
@@ -40,20 +41,20 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
             <a className="smoothscroll" href="#portfolio">
               Works
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#resume">
+              Resume
+            </a>
+          </li>
+          {/* <li>
             <a className="smoothscroll" href="#testimonials">
               Testimonials
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
@@ -68,7 +69,7 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            Based {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

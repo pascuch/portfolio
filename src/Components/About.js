@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from '../Jose Chavarria Full Stack EN.pdf'
 
 const About = ({ data }) => {
   if (data) {
@@ -17,29 +18,29 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
+        {/* <div className="three columns">
           <img
             className="profile-pic"
             src={profilepic}
             alt="Sonny's Profile Pic"
           />
-        </div>
-        <div className="nine columns main-col">
+        </div> */}
+        <div className="twelve columns main-col">
           <h2>About Me</h2>
 
           <p>{bio}</p>
-          <div className="row">
+          <div className="row extra-info">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
-                <span>{name}</span>
+                {/* <span>{name}</span>
                 <br />
                 <span>
                   {street}
                   <br />
                   {city} {state}, {zip}
                 </span>
-                <br />
+                <br /> */}
                 <span>{phone}</span>
                 <br />
                 <span>{email}</span>
@@ -47,7 +48,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={Resume} target="_blank" rel='noreferrer' className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

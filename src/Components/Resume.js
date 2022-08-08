@@ -11,7 +11,8 @@ const Resume = ({ data }) => {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          {/* <p>{education.description}</p> */}
+          <br />
         </div>
       );
     });
@@ -31,7 +32,7 @@ const Resume = ({ data }) => {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
+          {/* <span style={{ width: skills.level }} className={className}></span> */}
           <em>{skills.name}</em>
         </li>
       );
@@ -79,6 +80,8 @@ const Resume = ({ data }) => {
           </div>
         </div>
       </div>
+
+
     </section>
   );
 };
