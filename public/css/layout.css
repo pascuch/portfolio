@@ -449,7 +449,9 @@ ul#nav li.current a { color: #F06000; }
 @media screen and (min-width: 768px) {
    #portfolio .projects { 
       display: flex;
-      justify-content: space-between;      
+      justify-content: space-between;   
+      padding-top: 40px;
+      padding-bottom: 60px;
    }
    .portfolio-item{
       transform: scale(1.5);
