@@ -157,7 +157,13 @@
         "title": "Netflix Clone",
         "category": "",
         "image": "netflix_clone.png",
-        "url": "https://netflix-clone-a58b3.firebaseapp.com"
+        "url": "https://netflix-clone-eight-steel.vercel.app"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "",
+        "image": "amazon_clone.png",
+        "url": "https://amazon-clone-theta-nine.vercel.app"
       }
     ]
   },
